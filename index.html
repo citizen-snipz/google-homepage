@@ -13,7 +13,51 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
+		<nav class="flexNav">
+			<ul class="flexLeft">
+				<li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+				<li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+			</ul>
+			<ul class="flexRight">
+			  <li><a href="#">Gmail</a></li>
+				<li><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
+<!-- Google Apps tile -->
+				<li><a href="#"><img class="apps" src="images/apps-grid.png"></a></li>
+<!-- Google Profile w/ user thumbnail -->
+				<li><a href="#"><img class="profilePic" src="images/user-profile-thumb.png"></a></li>
+			</ul>
+		</nav>
+		<section class="logo">
+			<img src="images/googlelogo_color_272x92dp.png" alt="Google logo">
+		</section>
 
+		<main class="search">
+			<p><input type="text" name="search" value=""></p>
+			<p><button type="button" name="Google Search">Google Search</button>
+			<button type="button" name="I'm Feeling Lucky">I'm Feeling Lucky</button></p>
+			<p><a href="#">Watch Now!</a> Check out a few new products from Google</p>
+		</main>
+
+<!--
+1. separate the links into two different sections
+2. give each section a different class
+3. create a max width for each <section>
+4. flex box - justify content space-around
+</section>
+ -->
+
+		<footer class="flexFoot">
+			<section class="footLeft">
+				<a href="#">Advertising</a>
+				<a href="#">Business</a>
+				<a href="#">How Search works</a>
+			</section>
+			<section class="footRight">
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+				<a href="#">Settings</a>
+			</section>
+		</footer>
 	   <script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
