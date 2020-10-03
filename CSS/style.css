@@ -29,17 +29,28 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  margin-top: -20px;
 }
 
 footer {
   background-color: rgb(242,242,242);
   line-height: 50px;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+input {
+  width: 550px;
+  height: 40px;
+  border-radius: 14px;
+  border-color: rgb(242,242,242);
 }
 
 nav {
-  padding: 10px;
+  padding: -10px 10px 10px 10px;
+  margin-bottom: 5%;
 
 }
 
@@ -71,6 +82,31 @@ a {
   text-decoration: none;
 }
 
+button {
+  margin-right: 15px;
+  padding: 4px;
+  background-color: rgb(242,242,242);
+  color: rgb(115,115,115);
+  border-radius: 3px;
+  border-color: rgb(242,242,242);
+}
+
+button:hover {
+  border: 1px solid rgb(154,160,165);
+}
+
+input:hover {
+  box-shadow: 2px 2px 1px 2px rgb(154,160,165);
+}
+
+.blueLink {
+  color: rgb(52,42,181);
+}
+
+.blueLink:hover {
+  text-decoration: underline;
+}
+
 .flexNav {
   display: flex;
   justify-content: space-between;
@@ -85,11 +121,8 @@ a {
 }
 
 main.search, .logo {
-  margin: auto;
-  width: 50%;
-
+  text-align: center
 }
-
 
 ul.flexLeft {
 display: flex;
@@ -102,7 +135,6 @@ ul.flexRight {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
 }
 
 .footLeft {
@@ -116,7 +148,6 @@ ul.flexRight {
   justify-content: space-around;
   width: 20%;
 }
-
 
 .flexFoot {
   display: flex;
